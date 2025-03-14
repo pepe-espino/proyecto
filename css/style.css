@@ -5,3 +5,7 @@ main{
 .contacto{
     height: 100%;
 }
+
+body{
+    background-color: gainsboro;
+}
