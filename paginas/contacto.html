@@ -26,9 +26,9 @@
         </div>
     </header>
 
-    <main  class = "contacto">
+    <main  class = "">
 
-      <div class="modal modal-sheet position-static d-block p-4 py-md-5 my-auto" tabindex="-1" role="dialog" id="modalSheet">
+      <div class="modal modal-sheet position-static d-block" role="dialog" id="modalSheet">
         <div class="modal-dialog" role="document">
           <div class="modal-content rounded-4 shadow align-items-center justify-content-center text-center">
             <div class="modal-header border-bottom-0">
@@ -46,11 +46,33 @@
             <div class="modal-body p-3">
               <p><img src="/imgs/icons/github.png" width="18px" height="18px" alt="icono github"><a class="text-dark" href="https://github.com/pepe-espino/pepe-espino"> Perfil de GitHub</a></p>
             </div>
-            <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
+            <div class="modal-body p-3">
+              <p><img src="/imgs/icons/linkedin.png" width="18px" height="18px" alt="icono github"><a class="text-dark" href="https://www.linkedin.com/in/jos%C3%A9-antonio-espino-daza-58213434b/"> Perfil de LinkedIn</a></p>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="container py-4 mb-5">
+        <header class="pb-3 mb-4 border-bottom">
+        </header>
+    
+        <div class="p-5 my-4 bg-light rounded-3">
+          <div class=" py-5">
+            <form action="/paginas/contacto.html" method="post">
+              <h1 class="h3 mb-3 fw-normal">Participa en nuestra encuesta introduciendo el nombre de tu piloto favorito.</h1><br>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Introduce tu email</label>
+              </div>
+              <div class="form-floating">
+                <input type="piloto_favorito" class="form-control" id="piloto_del_dia" placeholder="Password">
+                <label for="floatingPassword">Introduce tu piloto favorito</label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            </form>
+          </div>
+        </div>
 
     </main>
 
